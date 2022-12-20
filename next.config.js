@@ -8,6 +8,7 @@ const withNextra = require('nextra')({
 const nextConfig = {
   // any configs you need
   basePath: '/nextjs-portfolio-starter',
+  assetPrefix: '.',
   images: {
     loader: 'akamai',
     path: '/',
